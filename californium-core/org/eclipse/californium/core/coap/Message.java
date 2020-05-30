@@ -296,13 +296,13 @@ public abstract class Message {
 	 * media type. To clear the payload from a message, do not use null but an
 	 * empty string.
 	 * 
-	 * @param payload the payload
+	 * @param payload2 the payload
 	 * @param mediaType the Internet Media Type
 	 * @throws NullPointerException if the payload is null
 	 * @see MediaTypeRegistry
 	 */
-	public Message setPayload(String payload, int mediaType) {
-		setPayload(payload);
+	public Message setPayload(String payload2, int mediaType) {
+		setPayload(payload2);
 		getOptions().setContentFormat(mediaType);
 		return this;
 	}

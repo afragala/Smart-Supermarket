@@ -1,0 +1,69 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FruitAndVeggies",
+            "request": "launch",
+            "mainClass": "it.unipr.iotlab.iot2020.cf.client.FruitAndVeggies",
+            "projectName": "IoTClass2020_JavaProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Customer",
+            "request": "launch",
+            "mainClass": "it.unipr.iotlab.iot2020.cf.client.Customer",
+            "projectName": "IoTClass2020_JavaProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Department",
+            "request": "launch",
+            "mainClass": "it.unipr.iotlab.iot2020.cf.client.Department",
+            "projectName": "IoTClass2020_JavaProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "it.unipr.iotlab.iot2020.cf.Test",
+            "projectName": "IoTClass2020_JavaProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SupermarketHub",
+            "request": "launch",
+            "mainClass": "it.unipr.iotlab.iot2020.cf.server.SupermarketHub",
+            "projectName": "IoTClass2020_JavaProject"
+        },
+        {
+            "type": "java",
+            "name": "Launch - Bread Client",
+            "request": "launch",
+            "mainClass": "it.unipr.iotlab.iot2020.cf.client.Bread",
+            "projectName": "IoTClass2020_JavaProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SupermaketHub",
+            "request": "launch",
+            "mainClass": "it.unipr.iotlab.iot2020.cf.server.SupermaketHub",
+            "projectName": "IoTClass2020_JavaProject"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SupermarketHub",
+            "request": "launch",
+            "mainClass": "SupermarketHub"
+        }
+    ]
+}
